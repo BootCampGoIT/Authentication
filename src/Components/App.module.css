@@ -1,0 +1,24 @@
+.navigation {
+    height: 30px;
+    background-color: black;
+}
+
+.navigationList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.navigationItem {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 800;
+}
+.activeNavigationItem {
+    color: gold;
+}
+
+.container {
+    padding: 5px;
+}
